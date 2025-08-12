@@ -1,0 +1,26 @@
+各ファイルの役割
+メインディレクトリ
+
+main.py: アプリケーションのエントリーポイント
+requirements.txt: 依存ライブラリの一覧
+
+src/gui/
+
+main_window.py: メインウィンドウのGUIコンポーネント
+styles.py: UIの見た目やスタイルの定義
+
+src/audio/
+
+recorder.py: マイクからの音声録音を担当
+recognizer.py: 音声からテキストへの変換を担当
+
+src/utils/
+
+file_handler.py: ファイルの保存・読み込み機能
+config.py: アプリケーションの設定管理
+
+その他
+
+output/: 認識結果のテキストファイルを保存
+temp/: 録音した音声の一時保存
+assets/: アイコンなどのリソースファイル
